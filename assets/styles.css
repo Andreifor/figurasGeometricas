@@ -1,0 +1,45 @@
+:root{
+    --patron01-color:#4c657e;
+    --patron02-color:#f29696;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body
+{
+font-size: 1.6rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxsizing1,
+.boxsizing2,
+.boxsizing3,
+.boxsizing4,
+.boxsizing5{
+    width: 100%;
+    min-width: 150px;
+    height: 200px;
+}
+
+.boxnumber1{
+    background-color:var(--patron01-color) ;
+}
+.boxnumber2{
+    background-color:var(--patron02-color) ;
+}
+.boxnumber3{
+    background-color:var(--patron01-color) ;
+}
+.boxnumber4{
+    background-color:var(--patron02-color) ;
+}
+.boxnumber5{
+    background-color:var(--patron01-color) ;
+}

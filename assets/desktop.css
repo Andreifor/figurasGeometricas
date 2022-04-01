@@ -1,0 +1,24 @@
+@media (min-width:800px){
+    .container{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .boxsizing1{
+        width: 60%;
+        
+    }
+    .boxsizing2{
+        width: 40%;
+    }
+    .boxsizing3{
+        width: 33%;
+    }
+    .boxsizing4{
+        width: 33%;
+    }
+    .boxsizing5{
+        width: 33%;
+        flex-grow: 1;
+    }
+}
